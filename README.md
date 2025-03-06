@@ -1,36 +1,96 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+Doctor Appointment Booking System
 
-## Getting Started
+📌 Project Overview
 
-First, run the development server:
+This Doctor Appointment Booking System is a web-based application that allows users to book, view, and manage doctor appointments through an interactive calendar grid view. The system does not require user authentication or login/logout functionalities.
 
-```bash
+🚀 Features
+
+Calendar Grid View for Booking Appointments
+
+Search and Select Doctor by Category
+
+Book, Update, and Delete Appointments
+
+View Appointment Badges with Count on Calendar
+
+Professional Popup Design for Appointment Details
+
+Fully Responsive Design
+
+💻 Technology Stack
+
+React.js (Next.js Framework)
+
+Tailwind CSS (Styling)
+
+Firebase Firestore (Database)
+
+React-Icons (Icons)
+
+Toastify (Notifications)
+
+🔑 Functionalities
+
+Feature
+
+Description
+
+Book Appointment
+
+Select doctor, time, and date from the calendar grid view
+
+Update Appointment
+
+Modify appointment details via popup modal
+
+Delete Appointment
+
+Remove appointments with a confirmation icon
+
+Responsive Design
+
+Works on mobile, tablet, and desktop
+
+Calendar Grid View
+
+Monthly view with clickable date slots
+
+📄 Installation
+
+Clone the Repository
+
+git clone https://github.com/ravishrj/Doctor_Appointement_New.git
+cd Doctor_Appointement_New
+
+Install Dependencies
+
+npm install
+
+Run the Project
+
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Visit http://localhost:3000 in your browser.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+🔥 Folder Structure
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+src/
+├─ app/
+│  ├─ _components/
+│  │  ├─ Book_appointment.jsx
+│  ├─ firebase/
+│  │  ├─ config.js
+├─ styles/
+├─ package.json
+└─ README.md
 
-## Learn More
+🎯 How to Use
 
-To learn more about Next.js, take a look at the following resources:
+Select a date from the Calendar Grid.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Fill in the required details in the popup form.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Click Book Now to save the appointment.
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+To edit or delete, click on the appointment badge.
